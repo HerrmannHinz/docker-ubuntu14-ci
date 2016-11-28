@@ -1,5 +1,5 @@
 FROM quay.io/actcat/buildpack_php:latest
-MAINTAINER HerrmannHinz <herrmann.hinz@gmail.com>
+MAINTAINER Tobias Herrmann Hinz <tobias.hinz@gmail.com>
 
 # install some necesarry packages
 RUN apt-get update && apt-get install -y \
